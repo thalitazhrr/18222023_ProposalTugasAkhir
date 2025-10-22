@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  22 OCT 2025 16:52
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  22 OCT 2025 17:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -774,7 +774,7 @@ Package biblatex Info: ... and expl3
 (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 181.
+Package hyperref Info: Option `colorlinks' set `true' on input line 221.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
@@ -785,32 +785,32 @@ Package csquotes Info: Adjusting default style.
 
 
 Package csquotes Warning: No style for language 'indonesian'.
-(csquotes)                Using fallback style on input line 199.
+(csquotes)                Using fallback style on input line 239.
 
 Package csquotes Info: Redefining alias 'default' -> 'fallback'.
 (./ProposalTA.aux)
 \openout1 = `ProposalTA.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -818,64 +818,64 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 199.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 199.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 199.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 199.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 199.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 199.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 199.
-LaTeX Font Info:    Redeclaring math accent \check on input line 199.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 199.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 199.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 199.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 199.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 239.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 239.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 239.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 239.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 239.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 239.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 239.
+LaTeX Font Info:    Redeclaring math accent \check on input line 239.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 239.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 239.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 239.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 239.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 239.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 239.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 239.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 239.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 239.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 239.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 239.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 239.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 239.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 239.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 239.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 239.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 199.
+(Font)              `operators' in the math version `normal' on input line 239.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 1
-99.
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 2
+39.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 199.
+(Font)              `operators' in the math version `bold' on input line 239.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-199.
+239.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 199.
+input line 239.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 199.
+ 239.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
-199.
+239.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 199.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 239.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 199.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 239.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
-input line 199.
+input line 239.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
-e 199.
+e 239.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 199.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 239.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 199.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 239.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -927,7 +927,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: xetex.def on input line 149.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 199.
+Package hyperref Info: Link coloring ON on input line 239.
 
 (./ProposalTA.out) (./ProposalTA.out)
 \@outlinefile=\write4
@@ -950,8 +950,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ProposalTA.bbl' found.
 
 (./ProposalTA.bbl)
-Package biblatex Info: Reference section=0 on input line 199.
-Package biblatex Info: Reference segment=0 on input line 199.
+Package biblatex Info: Reference section=0 on input line 239.
+Package biblatex Info: Reference segment=0 on input line 239.
 File: ganesha.jpg Graphic file (type bmp)
 <ganesha.jpg>
 
@@ -983,7 +983,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Bab I.
 
 LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/sc' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/n' instead on input line 373.
+(Font)              using `TU/TimesNewRoman(0)/m/n' instead on input line 413.
 
 
 
@@ -991,7 +991,7 @@ LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/sc' undefined
 
 
 ]
-Overfull \hbox (1.1121pt too wide) in paragraph at lines 377--378
+Overfull \hbox (1.1121pt too wide) in paragraph at lines 417--418
 []\TU/TimesNewRoman(0)/m/sc/12 Keterbatasan lain yang kerap dijumpai ialah domi
 nasi analitik deskriptif yang
  []
@@ -999,17 +999,10 @@ nasi analitik deskriptif yang
 
 
 [2]
-Overfull \hbox (19.85901pt too wide) in paragraph at lines 388--388
-\TU/TimesNewRoman(0)/m/sc/12 survey. In: \TU/TimesNewRoman(0)/m/it/12 Philosoph
-ical Transactions of the Royal Society A \TU/TimesNewRoman(0)/m/sc/12 379.2194,
- p. 20200209.
- []
-
-
-Overfull \hbox (10.7273pt too wide) in paragraph at lines 388--388
-[][][][] [][] [][][] [][] [][][][] [][] [][][][][][] [][] [][][][] [][] [][][][
-][][][][] [][] [][][][] [][] [][][][]$[][] \TU/TimesNewRoman(0)/m/sc/12 (visite
-d on 10/22/2025). 
+Overfull \hbox (3.50542pt too wide) in paragraph at lines 428--428
+\TU/TimesNewRoman(0)/m/sc/12 lam: \TU/TimesNewRoman(0)/m/it/12 Proceedings of t
+he VLDB Endowment \TU/TimesNewRoman(0)/m/sc/12 17.5, hal. 1132–1145. doi: [][]$
+[][] [] [][][][][] []
  []
 
 
@@ -1018,15 +1011,15 @@ d on 10/22/2025).
 
 ]
 
-Package caption Warning: Unused \captionsetup[lstlisting] on input line 190.
+Package caption Warning: Unused \captionsetup[lstlisting] on input line 230.
 See the caption package documentation for explanation.
 
 
-Package caption Warning: Unused \captionsetup[figure] on input line 346.
+Package caption Warning: Unused \captionsetup[figure] on input line 386.
 See the caption package documentation for explanation.
 
 
-Package caption Warning: Unused \captionsetup[table] on input line 347.
+Package caption Warning: Unused \captionsetup[table] on input line 387.
 See the caption package documentation for explanation.
 
 
@@ -1047,12 +1040,12 @@ Package logreq Info: Writing requests to 'ProposalTA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25451 strings out of 473832
- 490975 string characters out of 5729482
- 1484814 words of memory out of 5000000
- 48234 multiletter control sequences out of 15000+600000
+ 25454 strings out of 473832
+ 491037 string characters out of 5729482
+ 1483413 words of memory out of 5000000
+ 48237 multiletter control sequences out of 15000+600000
  564026 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  79i,5n,93p,966b,5036s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ProposalTA.xdv (7 pages, 103712 bytes).
+Output written on ProposalTA.xdv (7 pages, 104436 bytes).

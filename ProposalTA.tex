@@ -119,13 +119,24 @@
   backend=biber,
   style=authoryear,
   citestyle=authoryear,
-  date=year,          % hanya tahun di sitasi (hilangkan bulan/hari)
+  date=year,
   maxcitenames=2,
   uniquename=false
 ]{biblatex}
 \addbibresource{daftar-pustaka.bib}
+
+% Hilangkan kutip di judul
 \DeclareFieldFormat{title}{#1}
 \DeclareFieldFormat[article]{title}{#1}
+\DeclareFieldFormat[incollection]{title}{#1}
+\DeclareFieldFormat[inbook]{title}{#1}
+\DeclareFieldFormat[book]{title}{#1}
+\DeclareFieldFormat[online]{title}{#1}
+\DeclareFieldFormat[techreport]{title}{#1}
+
+% Pastikan \cite() menampilkan (Penulis Tahun)
+\let\oldcite\cite
+\renewcommand{\cite}{\parencite}
 
 \DeclareLanguageMapping{indonesian}{english}
 
@@ -146,23 +157,52 @@
   page         = {hal.},
   volume       = {vol.},
   number       = {no.},
-  urlseen      = {diakses pada},
+  urldate      = {diakses pada},
   url          = {tautan},
 }
 
+\renewbibmacro*{in:}{%
+  \printtext{Dalam\addcolon\space}}
+
+\renewbibmacro*{byeditor+others}{%
+  \ifnameundef{editor}
+    {}
+    {\usebibmacro{byeditor+othersstrg}%
+     \setunit{\addspace}%
+     \printnames[byeditor]{editor}%
+     \clearname{editor}%
+     \newunit}%
+  \usebibmacro{byeditorx}%
+  \usebibmacro{bytranslator+others}}
+
+\renewbibmacro*{byeditor+othersstrg}{%
+  \printtext{Disunting oleh}}
+
+% Override format urldate, pages, URL, edition
+\DeclareFieldFormat{urldate}{\mkbibparens{diakses pada\space\mkbibdatelong{urldate}}}
+\DeclareFieldFormat{pages}{hal\adddot\space#1}
+\DeclareFieldFormat{url}{URL\addcolon\space\url{#1}}
+\DeclareFieldFormat{edition}{%
+  \ifinteger{#1}
+    {Edisi~#1}
+    {#1}}
+
+% Override format urldate, pages, dan URL
+\DeclareFieldFormat{urldate}{\mkbibparens{diakses pada\space#1}}
+\DeclareFieldFormat{pages}{hal\adddot\space#1}
+\DeclareFieldFormat{url}{URL\addcolon\space\url{#1}}  % ← URL huruf besar
+\DeclareFieldFormat{postnote}{hal\adddot\space#1}
+
+
+% Atur pemisah nama penulis
 \renewcommand*{\multinamedelim}{\addcomma\space}
 \renewcommand*{\finalnamedelim}{\addspace dan\space}
+\renewcommand*{\finalandcomma}{}
 
 \ExecuteBibliographyOptions{
   maxbibnames=6,   % berapa nama di daftar pustaka sebelum 'dkk.'
   dashed=false     % hilangkan tanda '—' untuk author yang sama berurutan
 }
-
-% ==========================================
-% Pastikan \cite() menampilkan (Penulis Tahun)
-% ==========================================
-\let\oldcite\cite
-\renewcommand{\cite}{\parencite}
 
 % ==========================================
 % Atur pemisah nama penulis agar lebih natural dalam Bahasa Indonesia

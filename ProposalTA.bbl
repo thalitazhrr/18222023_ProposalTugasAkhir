@@ -102,7 +102,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:2004.10240}
-      \field{note}{Later version referenced in ACM Computing Surveys (2022)}
+      \field{note}{Versi selanjutnya dirujuk dalam ACM Computing Surveys (2022)}
       \field{title}{Deep Learning for Time Series Forecasting: Tutorial and Literature Survey}
       \field{year}{2020}
       \verb{doi}
@@ -315,9 +315,9 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Reprinted 2012; widely cited as the 3V framework}
+      \field{note}{Dicetak ulang 2012; dikutip secara luas sebagai kerangka 3V}
       \field{title}{3D Data Management: Controlling Data Volume, Velocity, and Variety}
-      \field{type}{techreport}
+      \field{type}{Laporan teknis}
       \field{year}{2001}
     \endentry
     \entry{Lennerholt2021}{article}{}{}
