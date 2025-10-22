@@ -134,37 +134,24 @@
 % ==========================================
 \DefineBibliographyStrings{english}{
   and          = {dan},
-  andothers    = {dkk\adddot},
+  andothers    = {dkk.},
   editor       = {penyunting},
   editors      = {penyunting},
   translator   = {penerjemah},
-  translators  = {penerjemah},
   byeditor     = {disunting oleh},
   bytranslator = {diterjemahkan oleh},
   in           = {dalam},
   edition      = {edisi},
-  pages        = {hlm\adddot},
-  page         = {hlm\adddot},
-  volume       = {vol\adddot},
-  number       = {no\adddot},
-  urlseen      = {diakses},
-  url          = {tersedia di},
-  references   = {referensi},
-  bibliography = {daftar pustaka},
-  shorthands   = {singkatan},
-  january      = {Januari},
-  february     = {Februari},
-  march        = {Maret},
-  april        = {April},
-  may          = {Mei},
-  june         = {Juni},
-  july         = {Juli},
-  august       = {Agustus},
-  september    = {September},
-  october      = {Oktober},
-  november     = {November},
-  december     = {Desember},
+  pages        = {hal.},
+  page         = {hal.},
+  volume       = {vol.},
+  number       = {no.},
+  urlseen      = {diakses pada},
+  url          = {tautan},
 }
+
+\renewcommand*{\multinamedelim}{\addcomma\space}
+\renewcommand*{\finalnamedelim}{\addspace dan\space}
 
 \ExecuteBibliographyOptions{
   maxbibnames=6,   % berapa nama di daftar pustaka sebelum 'dkk.'

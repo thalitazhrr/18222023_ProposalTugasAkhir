@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber ProposalTA"] 1761126292.63234 "ProposalTA.bcf" "ProposalTA.bbl" "ProposalTA" 1761126321.19167 0
-  "ProposalTA.bcf" 1761126320.93157 109923 741d0128a19e1e6f0d8b16e5c5a4106c "xelatex"
+["biber ProposalTA"] 1761126292.63234 "ProposalTA.bcf" "ProposalTA.bbl" "ProposalTA" 1761126780.091 0
+  "ProposalTA.bcf" 1761126779.83513 109923 741d0128a19e1e6f0d8b16e5c5a4106c "xelatex"
   "daftar-pustaka.bib" 1761125983.44778 4447 1a1abfeebb924a59616449533b5af2d4 ""
   (generated)
   "ProposalTA.bbl"
   "ProposalTA.blg"
   (rewritten before read)
-["xdvipdfmx"] 1761126320.97727 "ProposalTA.xdv" "ProposalTA.pdf" "ProposalTA" 1761126321.1925 0
-  "ProposalTA.xdv" 1761126320.9323 103764 c85ecd3a8c0910c042054882e59d02fe "xelatex"
+["xdvipdfmx"] 1761126779.88053 "ProposalTA.xdv" "ProposalTA.pdf" "ProposalTA" 1761126780.09188 0
+  "ProposalTA.xdv" 1761126779.83575 103712 604077831570773f6f48fecf68d4881b "xelatex"
   (generated)
   "ProposalTA.pdf"
   (rewritten before read)
-["xelatex"] 1761126320.08447 "ProposalTA.tex" "ProposalTA.xdv" "ProposalTA" 1761126321.19171 0
+["xelatex"] 1761126778.97237 "ProposalTA.tex" "ProposalTA.xdv" "ProposalTA" 1761126780.09106 0
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -130,12 +130,12 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1741450550 5639796 b6822fbf027c6598cec2e241e0925725 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "ProposalTA.aux" 1761126320.92757 3777 16789d194a93c65901220b4d92debaf0 "xelatex"
+  "ProposalTA.aux" 1761126779.83106 3777 16789d194a93c65901220b4d92debaf0 "xelatex"
   "ProposalTA.bbl" 1761126293.74415 24333 0724e76c743529ab53bbfa8d4039cf60 "biber ProposalTA"
-  "ProposalTA.out" 1761126320.93078 342 7214641e0809c59493fe272ec94d0c07 "xelatex"
-  "ProposalTA.run.xml" 1761126320.93214 2392 c055829463feacb7a8ef8792285231d5 "xelatex"
-  "ProposalTA.tex" 1761126316.89134 17428 3145fcf75a1026b41ab2272511cb82de ""
-  "ProposalTA.toc" 1761126320.93226 230 c7a8f1fed55141224bce36ed112084ae "xelatex"
+  "ProposalTA.out" 1761126779.83445 342 7214641e0809c59493fe272ec94d0c07 "xelatex"
+  "ProposalTA.run.xml" 1761126779.83562 2392 c055829463feacb7a8ef8792285231d5 "xelatex"
+  "ProposalTA.tex" 1761126771.53457 17048 52921c2ed89a5af1cdb048c44b2d878c ""
+  "ProposalTA.toc" 1761126779.83572 230 c7a8f1fed55141224bce36ed112084ae "xelatex"
   "ganesha.jpg" 1761075547.69916 204312 0727b11a021a00ed8072dfbbb26b807b ""
   (generated)
   "ProposalTA.aux"
