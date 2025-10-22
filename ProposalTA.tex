@@ -94,38 +94,79 @@
 \setcounter{tocdepth}{4} % kedalaman daftar isi sampai subsubbab
 \setcounter{secnumdepth}{4} % kedalaman penomoran sampai subsubbab
 
+% ==========================================
+% UBAH NAMA-NAMA DEFAULT KE BAHASA INDONESIA
+% ==========================================
+\addto\captionsindonesian{%
+  \renewcommand{\contentsname}{Daftar Isi}%
+  \renewcommand{\listfigurename}{Daftar Gambar}%
+  \renewcommand{\listtablename}{Daftar Tabel}%
+  \renewcommand{\bibname}{Daftar Pustaka}%
+  \renewcommand{\indexname}{Indeks}%
+  \renewcommand{\figurename}{Gambar}%
+  \renewcommand{\tablename}{Tabel}%
+  \renewcommand{\partname}{Bagian}%
+  \renewcommand{\chaptername}{Bab}%
+  \renewcommand{\appendixname}{Lampiran}%
+  \renewcommand{\abstractname}{Abstrak}%
+}
 
 % ==========================================
 % SITASI DAN DAFTAR PUSTAKA (MENGGUNAKAN CHICAGO MANUAL OF STYLE)
 % ==========================================
+% --- Bibliografi: biblatex + biber ---
 \usepackage[
-    backend=biber,
-    authordate,
-    language=english,
-    autolang=other
-]{biblatex-chicago}
-
+  backend=biber,
+  style=authoryear,
+  citestyle=authoryear,
+  date=year,          % hanya tahun di sitasi (hilangkan bulan/hari)
+  maxcitenames=2,
+  uniquename=false
+]{biblatex}
 \addbibresource{daftar-pustaka.bib}
+
+\DeclareLanguageMapping{indonesian}{english}
 
 % ==========================================
 % Ubah istilah bahasa Inggris di daftar pustaka ke Bahasa Indonesia
 % ==========================================
 \DefineBibliographyStrings{english}{
   and          = {dan},
-  andothers    = {dkk.},
+  andothers    = {dkk\adddot},
   editor       = {penyunting},
   editors      = {penyunting},
   translator   = {penerjemah},
+  translators  = {penerjemah},
   byeditor     = {disunting oleh},
   bytranslator = {diterjemahkan oleh},
   in           = {dalam},
   edition      = {edisi},
-  pages        = {hal.},
-  page         = {hal.},
-  volume       = {vol.},
-  number       = {no.},
-  urlseen      = {diakses pada},
-  url          = {tautan},
+  pages        = {hlm\adddot},
+  page         = {hlm\adddot},
+  volume       = {vol\adddot},
+  number       = {no\adddot},
+  urlseen      = {diakses},
+  url          = {tersedia di},
+  references   = {referensi},
+  bibliography = {daftar pustaka},
+  shorthands   = {singkatan},
+  january      = {Januari},
+  february     = {Februari},
+  march        = {Maret},
+  april        = {April},
+  may          = {Mei},
+  june         = {Juni},
+  july         = {Juli},
+  august       = {Agustus},
+  september    = {September},
+  october      = {Oktober},
+  november     = {November},
+  december     = {Desember},
+}
+
+\ExecuteBibliographyOptions{
+  maxbibnames=6,   % berapa nama di daftar pustaka sebelum 'dkk.'
+  dashed=false     % hilangkan tanda '—' untuk author yang sama berurutan
 }
 
 % ==========================================
@@ -165,6 +206,7 @@
 % ==========================================
 % AWAL DOKUMEN
 % ==========================================
+\usepackage{indentfirst}
 \begin{document}
 
 % ==========================================
@@ -172,23 +214,14 @@
 % ==========================================
 \begin{titlepage}
 \begin{center}
-
     
-    \vspace*{1cm}
-    
-    {\Large\bfseries Perancangan Sistem Business Intelligence Berbasis Chatbot dengan Rule-Based Query, Natural Language Processing, dan Time Series Forecasting untuk Analisis dan Prediksi Permintaan Layanan Pelanggan}\\
-     \vspace{2cm}
-
-    {\Large \textbf{Proposal Tugas Akhir}}\\
-
-
-    \vspace{2cm}
+    {\large\bfseries PERANCANGAN SISTEM \textit{BUSINESS INTELLIGENCE} BERBASIS \textit{CHATBOT} DENGAN \textit{RULE-BASED QUERY}, \textit{NATURAL LANGUAGE PROCESSING}, DAN \textit{TIME SERIES FORECASTING} UNTUK ANALISIS DAN PREDIKSI PERMINTAAN LAYANAN PELANGGAN}\\
     
     
     {\large Oleh}\\[0.3cm]
     \textbf{
-    {\large John Doe}\\
-    {\large 18299000}
+    {\large Thalita Zahra Sutejo}\\
+    {\large 18222023}
     }\\
 
     \vspace{2cm}
@@ -198,13 +231,13 @@
     \includegraphics[width=0.2\textwidth]{ganesha.jpg}
     \end{figure}
     
-     \vspace{1cm}
+     \vspace{4cm}
 
     \textbf{
     {\large PROGRAM STUDI SISTEM DAN TEKNOLOGI INFORMASI}\\
     {\large SEKOLAH TEKNIK ELEKTRO DAN INFORMATIKA}\\
     {\large INSTITUT TEKNOLOGI BANDUNG}\\
-    {\large Desember 2025}
+    {\large 2025}
     }
 \end{center}
 \end{titlepage}
@@ -221,7 +254,7 @@
   \textbf{\large LEMBAR PENGESAHAN}\\[1cm]
   \vspace*{1.5cm}
     
-  {\large\bfseries PERANCANGAN SISTEM INFORMASI AKADEMIK BERBASIS WEB}\\
+  {\large\bfseries PERANCANGAN SISTEM \textit{BUSINESS INTELLIGENCE} BERBASIS \textit{CHATBOT} DENGAN \textit{RULE-BASED QUERY}, \textit{NATURAL LANGUAGE PROCESSING}, DAN \textit{TIME SERIES FORECASTING} UNTUK ANALISIS DAN PREDIKSI PERMINTAAN LAYANAN PELANGGAN}\\
      \vspace{2cm}
 
   {\Large \textbf{Proposal Tugas Akhir}}\\
@@ -232,8 +265,8 @@
     
   {\large Oleh}\\[0.3cm]
     \textbf{
-    {\large John Doe}\\
-    {\large 18299000}
+    {\large Thalita Zahra Sutejo}\\
+    {\large 18222023}
   }\\
     
   \vspace{0.5cm}
@@ -245,14 +278,14 @@
   \vspace{1.5cm}
 
   Proposal Tugas Akhir ini telah disetujui dan disahkan\\ 
-  di Bandung, pada tanggal 20 November 2025\\[1cm]
+  di Bandung, pada tanggal 22 Oktober 2025\\[1cm]
 
 % ==========================================
 % Versi 1 pembimbing (default)
 % ==========================================
 	Pembimbing  \\[3cm]
-	Dr. Ir. John Doe, M.T.   \\[0.2cm]
-	NIP. 123456789 
+	Dr. Ir. Dimitri Mahayana, M.Eng.   \\[0.2cm]
+	NIP. 196808091991021001 
 % ==========================================
 
 \end{center}
@@ -273,7 +306,6 @@
 %\end{tabular}
 
 
-
 % -- Change page number style to roman ---
 \pagenumbering{roman} 
 
@@ -287,7 +319,7 @@
   \clearpage
   \thispagestyle{plain}% no header
   \begin{center}
-    {\large\bfseries\MakeUppercase{\contentsname}\par}
+    {\large\bfseries\MakeUppercase{Daftar Isi}\par}
   \end{center}
   \vskip 1em
   \@starttoc{toc}%
@@ -300,40 +332,26 @@
 \tableofcontents
 %\addcontentsline{toc}{chapter}{DAFTAR ISI}
 
-% --- DAFTAR GAMBAR ---
-\newpage
-\renewcommand{\cftloftitlefont}{\hfill\large\bfseries\MakeUppercase}
-\renewcommand{\cftafterloftitle}{\hfill}
-\listoffigures
-\addcontentsline{toc}{chapter}{DAFTAR GAMBAR}
-
-% --- DAFTAR TABEL ---
-\newpage
-\renewcommand{\cftlottitlefont}{\hfill\large\bfseries\MakeUppercase}
-\renewcommand{\cftafterlottitle}{\hfill}
-\listoftables
-\addcontentsline{toc}{chapter}{DAFTAR TABEL}
-
-% --- DAFTAR LISTING (ALGORITMA, PSEUDOCODE, SOURCE CODE) ---
-\newpage
-
-\lstlistoflistings
-\addcontentsline{toc}{chapter}{\lstlistlistingname}
-
 \mainmatter
 % --- FORMAT TAMPILAN JUDUL BAB, SUBBAB, JUDUL GAMBAR DAN TABEL ---
+
 % --- Judul Bab ---
-\titleformat{\chapter}[display]
-      {\centering\normalfont\large\bfseries} % Commands for the entire chapter title
-      {\MakeUppercase \chaptertitlename\ \thechapter}{14pt}{\large} % Chapter number format
 \renewcommand\thechapter{\Roman{chapter}}
+\titleformat{\chapter}[display]
+  {\centering\normalfont\large\bfseries} % Format keseluruhan judul bab
+  {\MakeUppercase{\chaptertitlename}\ \thechapter}{0pt}{\large} % Format nomor bab
+\titlespacing*{\chapter}{0pt}{-1.5em}{1.5em} % <--- atur jarak atas dan bawah judul bab di sini
+
 % --- Judul Subbab dan Subsubbab ---
 \titleformat{\section}
-	{\normalfont\bfseries}
-	{\thesection}{1em}{}
+  {\normalfont\bfseries}
+  {\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{1.2em}{0.5em}
+
 \titleformat{\subsection}
-	{\normalfont\bfseries}
-	{\thesubsection}{1em}{}
+  {\normalfont\bfseries}
+  {\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{0.8em}{0.3em}
 
 % --- Format judul gambar dan tabel ---
 \captionsetup[figure]{labelsep=space}
@@ -343,9 +361,10 @@
 
 % --- Atur indentasi paragraf ---
 \setlength{\parindent}{0pt}
-% -- Change page number style to arabic ---
+
+% --- Ganti gaya penomoran halaman menjadi arab ---
 \pagenumbering{arabic} 
-      
+
 % ==========================================
 % BAB I PENDAHULUAN
 % ==========================================
@@ -353,182 +372,31 @@
 
 % --- Latar Belakang ---
 \section{Latar Belakang}
-Latar Belakang menjelaskan dasar pemikiran, motivasi, kebutuhan, alasan, atau urgensi pemilihan masalah tugas akhir. Subbab ini berisi penjelasan ringkas tentang kondisi atau situasi yang ada saat ini terkait dengan topik yang dibahas. Tujuan utamanya adalah untuk memberikan informasi secukupnya kepada pembaca agar memahami topik yang akan dibahas. Dalam subbab ini, jelaskan hal-hal berikut ini:
-\begin{enumerate}
-\item	Kondisi atau situasi topik yang dibahas beserta permasalahannya, misalnya tentang pengelolaan informasi di puskesmas daerah pedesaan dan masalah yang dihadapi.
-\item	Berbagai solusi yang telah diterapkan atau solusi yang tersedia dan memungkinkan untuk diterapkan untuk menyelesaikan masalah tersebut.
-\end{enumerate}
 
-% --- Rumusan Masalah ---
-\section{Rumusan Masalah}
-Rumusan Masalah berisi masalah utama yang dibahas dalam tugas akhir. Rumusan masalah yang baik memiliki struktur sebagai berikut:
-\begin{enumerate}
-\item	Pokok persoalan dari kondisi atau situasi yang ada saat ini. Dengan kata lain, jelaskan kelemahan atau kekurangan dari kondisi, situasi, atau solusi yang dijelaskan pada latar belakang. Ini merupakan pokok rumusan masalah.
-\item	Elaborasi lebih lanjut urgensi penyelesaian masalah tersebut (mengapa penting untuk diselesaikan dan akibat yang dapat terjadi jika tidak diselesaikan).
-\item	Usulan singkat terkait dengan solusi yang ditawarkan untuk menyelesaikan persoalan.
-Penting untuk diperhatikan bahwa persoalan yang dideskripsikan pada subbab ini akan dipertanggungjawabkan di bab Evaluasi (apakah terselesaikan atau tidak).
-\end{enumerate}
+% Pengaturan spasi & tab paragraf (indent + jarak antaraparagraf)
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{6pt}
 
-% --- Tujuan ---
-\section{Tujuan}
-Tuliskan tujuan utama dan/atau tujuan detail yang akan dicapai dalam pelaksanaan tugas akhir. Fokuskan pada hasil akhir yang ingin diperoleh setelah tugas akhir diselesaikan, terkait dengan penyelesaian persoalan pada rumusan masalah. Penting untuk diperhatikan bahwa tujuan yang dideskripsikan pada subbab ini akan dipertanggungjawabkan di akhir pelaksanaan tugas akhir apakah tercapai atau tidak. Tuliskan kriteria keberhasilan tugas akhir ini.
+Transformasi digital mendorong organisasi mengelola data dengan tiga ciri utama, yaitu \textit{volume} besar, \textit{velocity} tinggi, dan \textit{variety} format (3V). Kerangka 3V menjelaskan mengapa pendekatan analitik konvensional sering kewalahan ketika berhadapan dengan data modern yang terus bertambah, bergerak cepat, dan heterogen \parencite{Laney2001}. Di tingkat konseptual, diskursus \textit{big data} menekankan bahwa perubahan bukan hanya pada skala, melainkan juga pada cara data diproduksi, diatur, dan dimaknai lintas konteks sosial ekonomi \parencite{Kitchin2016}.
 
-% --- Batasan Masalah ---
-\section{Batasan Masalah}
-Tuliskan batasan-batasan yang diambil dalam pelaksanaan tugas akhir. Batasan ini dapat dihindari (bersifat opsional, tidak perlu ada) jika topik atau judul tugas akhir dibuat cukup spesifik.
+Dalam konteks Indonesia, PT Telkom Indonesia melalui \textit{IndiBiz} memosisikan diri sebagai ekosistem solusi digital bagi segmen B2B, pelaku UMKM, institusi pendidikan, dan badan usaha lokal. Lini produk ini memadukan layanan konektivitas dan solusi \textit{software} untuk mendukung operasi bisnis \parencite{IndiBiz2024Site}, serta memperoleh sorotan positif pada agenda digitalisasi UMKM \parencite{Telkom2024News}. Kebutuhan analitik yang cepat dan inklusif menjadi krusial agar pengambilan keputusan selaras dengan dinamika pasar dan kebutuhan pelanggan.
 
-% --- Metodologi Pengerjaan TA ---
-\section{Metodologi}
-Tuliskan semua tahapan yang akan dilalui selama pelaksanaan tugas akhir. Tahapan ini spesifik untuk menyelesaikan persoalan tugas akhir. Khusus untuk penyusunan proposal ini, jelaskan secara detail:
-\begin{enumerate}
-\item	Tahapan investigasi pengumpulan fakta di latar belakang untuk merumuskan masalah.
-\item	Langkah-langkah pencarian, pengelompokan, dan penapisan literatur atau sumber informasi untuk mengumpulkan informasi yang relevan tentang topik yang diangkat, termasuk teori (konsep atau teori apa saja yang perlu dicari), hal-hal yang telah dicapai oleh orang lain (cara mencari dan kata kuncinya), dan berbagai informasi pendukung, untuk mencari solusi terhadap masalah yang dibahas. Gunakan metodologi yang tepat dalam menggali informasi dan dokumentasikan prosesnya (termasuk rekaman wawancara atau survei) di dalam Lampiran, termasuk tautan ke video atau foto. Hasil penggalian informasi ini akan dijelaskan secara sistematis di Bab II Studi Literatur.
-\end{enumerate}
+Dalam praktik, proses analitik di banyak organisasi besar masih manual dan terfragmentasi. Pengguna perlu membuka beberapa \textit{dashboard}, menyelaraskan definisi \textit{key performance indicator} (KPI), menormalkan wilayah dan periode data, lalu menulis kueri \textsc{sql} ke gudang data. Literatur \textit{business intelligence} tingkat manajerial menempatkan persoalan ini sebagai hambatan terhadap \textit{time to insight} dan konsistensi makna indikator \parencite{Sharda2020}. Upaya \textit{self-service BI} (SSBI) yang idealnya memandirikan pengguna nonteknis sering terkendala akses dan kualitas data, ketergantungan pada peran teknis, serta faktor organisasi yang perlu dikelola sistematis \parencite{Lennerholt2021,Lennerholt2023}. Tumpukan \textit{dashboard} dan laporan pada akhirnya dapat memperpanjang jarak antara pertanyaan bisnis dan jawaban yang dapat ditindaklanjuti.
 
-% ==========================================
-% BAB II STUDI LITERATUR
-% ==========================================
-\chapter{STUDI LITERATUR}
-\section{Section Pertama}
-\lipsum[1]
-\subsection{Subsection Pertama}
-\lipsum[2]
-\subsubsection{Gambar}
-Penomoran subbab maksimum adalah 4 (empat) tingkat, seperti pada nomor subbab ini. Contoh gambar dapat dilihat pada Gambar \ref{gambar:jaringan}. Gambar dan judulnya diposisikan di tengah. Nomor gambar tidak diakhiri tanda titik. Gambar tersebut dibuat menggunakan aplikasi draw.io dan disimpan ke format PNG setelah dengan zoom setting pada angka 300\%. Ukuran gambar yang ditampilkan dapat diatur dengan mengubah nilai \textit{width} dalam sintaks \textit{includegraphics}.
+Salah satu pendekatan untuk mengurangi hambatan adalah antarmuka bahasa alami yang memungkinkan pengguna mengajukan pertanyaan langsung ke data tanpa menulis \textsc{sql}. Bidang \textit{natural language to SQL} (\textit{text-to-SQL} atau NL2SQL) menunjukkan kemajuan signifikan. Kajian mutakhir memperlihatkan peran \textit{large language model} (LLM) dalam meningkatkan cakupan dan ketepatan pemetaan semantik, sekaligus menyoroti kebutuhan jaminan kualitas eksekusi, validitas keluaran, ketahanan terhadap variasi bahasa, dan strategi pascaproses yang kokoh pada lingkungan \textit{enterprise} \parencite{Gao2023,Li2024}. Tantangan NL2SQL karenanya bukan semata pemodelan, melainkan rekayasa sistem ujung ke ujung.
 
-\begin{figure}[t] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
-	\centering
-    	\includegraphics[width=0.7\textwidth]{gambar1.png}
-	\caption{Contoh gambar jaringan}
-	\label{gambar:jaringan}
-\end{figure}
+Keterbatasan lain yang kerap dijumpai ialah dominasi analitik deskriptif yang hanya menjawab apa yang terjadi. Analitik prediktif, khususnya \textit{time series forecasting}, terbukti bernilai untuk perencanaan kapasitas, estimasi permintaan, pengaturan persediaan, dan mitigasi \textit{churn}. Survei komprehensif menempatkan arsitektur \textit{deep learning} sebagai pilar yang kian lazim untuk meningkatkan akurasi peramalan lintas domain \parencite{Lim2021,Benidis2020}. Integrasi kapabilitas prediktif ke alur BI memungkinkan organisasi bergeser dari pola reaktif menuju pola proaktif.
 
+Cara penyajian hasil analisis juga menentukan adopsi di kalangan pemangku kepentingan nonteknis. Laporan berbentuk tabel atau angka mentah sering sulit ditafsirkan. Modul \textit{natural language generation} (NLG) dapat menerjemahkan keluaran kueri dan model menjadi narasi yang ringkas, jelas, dan kontekstual. \parencite{Gatt2018} memetakan tugas inti, aplikasi, dan evaluasi NLG secara mendalam, sedangkan tinjauan komersial menunjukkan kematangan ekosistem NLG dalam praktik industri \parencite{Dale2020}. Dengan NLG, hasil analisis dapat hadir sebagai uraian yang memandu pembaca menuju \textit{insight} dan tindakan.
 
-\subsubsection{Tabel}
-Contoh tabel dapat dilihat pada Tabel \ref{tbl:harga1} dan \ref{tbl:harga2}. Tabel dan judulnya dibuat rata kiri dan judul tabel diletakkan di atas tabel. Usahakan tabel dapat ditulis dalam satu halaman, tidak terpotong ke halaman berikutnya.
+Bertolak dari fondasi tersebut, celah yang hendak dijawab adalah ketiadaan solusi terpadu yang menyatukan empat kemampuan kunci dalam satu antarmuka. Kemampuan tersebut mencakup interaksi \textit{natural language} untuk bertanya, penerjemahan otomatis ke kueri yang valid (NL2SQL), analitik prediktif berbasis \textit{time series forecasting}, dan NLG untuk menghasilkan narasi interpretatif yang mudah dipahami. Dari sisi arsitektur, solusi juga perlu menghormati prinsip BI manajerial seperti konsistensi definisi metrik, tata kelola data, dan pelacakan \textit{lineage} agar layak dioperasionalkan pada skala \textit{enterprise} \parencite{Sharda2020} dan relevan dengan kebutuhan unit bisnis seperti \textit{IndiBiz} \parencite{IndiBiz2024Site}.
 
-\begin{table}[t] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
-\centering
-	\begin{tabular}{ | p{2cm} | p{2cm} | p{3cm} |}
-	\hline
-	Nama 	& Satuan 		& Harga \\
-	\hline
-	Buku 	& Exemplar	& 25000 \\
-	Komputer	& Unit		& 2500000 \\
-	Pensil	& Buah		& 118900 \\
-	\hline
-	\end{tabular}
-\caption{Tabel harga bahan pokok}
-\label{tbl:harga1}
-\end{table}
-
-\begin{table}[h] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
-\centering
-	\begin{tabular}{ | l | c | r | }
-	\hline
-	Nama 	& Satuan 		& Harga \\
-	\hline
-	Buku 	& Exemplar	& 25000 \\
-	Komputer	& Unit		& 2500000 \\
-	Pensil	& Buah		& 118900 \\
-	\hline
-	\end{tabular}
-\caption{Tabel harga bahan sekunder}
-\label{tbl:harga2}
-\end{table}
-
-\subsubsection{Rumus}
-Contoh rumus matematika dapat ditulis seperti pada Persamaan \ref{eq:contoh1} di bawah ini. 
-Penomoran persamaan diletakkan di sebelah kanan, dan rumus ditulis dalam mode \textit{display math}.
-\begin{equation}
-E = mc^2
-\label{eq:contoh1}
-\end{equation}
-
-\subsection{Algoritma, Pseudocode, atau Source Code}
-Contoh penulisan algoritma atau pseudocode dapat ditulis seperti pada Algoritma \ref{alg:contoh1} di bawah ini. 
-Gunakan paket \textit{listings} untuk menulis source code dalam bahasa pemrograman tertentu, seperti pada Contoh \ref{lst:contoh1}. 
-
-
-\begin{lstlisting}[language=Python, frame=single, caption={Contoh source code Python}, label={lst:contoh1}]
-def hello_world():
-    print("Hello, World!")       
-hello_world()
-\end{lstlisting}
-
-
-
-
-\begin{lstlisting}[frame=lines, caption={Contoh pseudocode}, label={alg:contoh1}]
-ALGORITHM HelloWorld
-   PRINT "Hello, World!"
-END ALGORITHM
-\end{lstlisting}
-
-
-
-
-% ============================================================================================
-% BAB III ANALISIS MASALAH
-% Pembagian subbab tidak rigid dan dapat bervariasi. Bab ini minimal berisi analisis kebutuhan
-% fungsional dan nonfungsional, analisis berbagai alternatif solusi yang dapat ditawarkan, dan
-% metode pemilihan solusi yang diusulkan.
-% ============================================================================================
-\chapter{ANALISIS MASALAH}
-\section{Analisis Kondisi Saat Ini}
-Menurut \textcite{laudon2020}, gambarkan terlebih dahulu model konseptual sistem yang ada saat ini. Model konseptual ini berisi berbagai komponen atau subsitem dan interaksi antarsubsistem tersebut. Setelah itu, berikan penjelasan tentang masalah yang ada pada sistem tersebut. Paragraf berikut berisi contoh penjabaran masalah sistem informasi fasilitas kesehatan untuk pasien \autocite{pressman2019}. 
-\section{Analisis Kebutuhan}
-\lipsum[4]
-\subsection{Identifikasi Masalah Pengguna}
-\lipsum[5]
-\subsection{Kebutuhan Fungsional}
-\lipsum[6]
-\subsection{Kebutuhan Nonfungsional}
-\lipsum[7]
-
-\section{Analisis Pemilihan Solusi}
-\subsection{Alternatif Solusi}
-\lipsum[8]
-\subsection{Analisis Penentuan Solusi}
-\lipsum[9]
-
-% ==========================================
-% BAB IV DESAIN KONSEP SOLUSI
-% ==========================================
-\chapter{DESAIN KONSEP SOLUSI}
-Ilustrasikan desain konsep solusi dalam bentuk model konseptual dan penjelasan secara ringkas, 
-beserta perbedaannya dengan sistem saat ini. Ilustrasi harus dapat dibandingkan (\textit{before} and \textit{after}). 
-Karena masih berupa proposal, bab ini hanya berisi gambar desain konsep solusi tersebut dan 
-penjelasan perbandingannya dengan gambar sistem yang ada saat ini (yang tergambar di awal Bab III).
-
-% ==========================================
-% BAB V RENCANA SELANJUTNYA
-% ==========================================
-\chapter{RENCANA SELANJUTNYA}
-Jelaskan secara detail langkah-langkah rencana selanjutnya, hal-hal yang diperlukan atau akan disiapkan, dan risiko dan mitigasinya, yang meliputi:
-\begin{enumerate}
-\item	Rencana implementasi, termasuk alat dan bahan yang diperlukan, lingkungan, konfigurasi, biaya, dan sebagainya.
-\item	Desain pengujian dan evaluasi, misalnya metode verifikasi dan validasi.
-\item	Analisis risiko dan mitigasi, misalnya tindakan selanjutnya jika ada yang tidak berjalan sesuai rencana.
-\end{enumerate}
-
-
-\backmatter
+Rumusan masalah pada pekerjaan ini mencakup perancangan antarmuka \textit{natural language} yang inklusif bagi pengguna lintas fungsi dengan tetap menjaga validitas kueri basis data \parencite{Gao2023,Li2024}, integrasi \textit{time series forecasting} ke alur analitik untuk mengantisipasi perubahan permintaan dan kinerja \parencite{Lim2021,Benidis2020}, penyajian hasil dalam bentuk narasi yang ringkas dan kontekstual melalui NLG \parencite{Gatt2018,Dale2020}, serta orkestrasi keempat kapabilitas dalam kerangka BI yang sejalan dengan tata kelola data dan kebutuhan operasional.
 
 % ==========================================
 % DAFTAR PUSTAKA
 % ==========================================
-\printbibliography[title={DAFTAR PUSTAKA}]
-
-% ==========================================
-% LAMPIRAN (optional)
-% ==========================================
-\appendix
-
-\chapter{LAMPIRAN A: SOURCE CODE}
-
-\chapter{LAMPIRAN B: HASIL SURVEI}
+\printbibliography[heading=bibintoc, title={DAFTAR PUSTAKA}]
 
 
 \end{document}
- 

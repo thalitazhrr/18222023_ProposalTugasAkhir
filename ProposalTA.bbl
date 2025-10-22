@@ -18,76 +18,601 @@
 
 
 \refsection{0}
-  \datalist[entry]{cms/global//global/global/global}
-    \entry{laudon2020}{book}{}{}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{Benidis2020}{article}{}{}
+      \name{author}{13}{}{%
+        {{hash=d3095e65af4a4f40049359d3f9b83fff}{%
+           family={Benidis},
+           familyi={B\bibinitperiod},
+           given={Konstantinos},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a3edf426c05893fe420aba2808f54985}{%
+           family={Rangapuram},
+           familyi={R\bibinitperiod},
+           given={Syama\bibnamedelima Sundar},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f059e30caa4d74f8c23070b22386b22e}{%
+           family={Flunkert},
+           familyi={F\bibinitperiod},
+           given={Valentin},
+           giveni={V\bibinitperiod}}}%
+        {{hash=a9292a8838878275e725f037bc757f7e}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yuyang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=43bbf63315d5630595dc1194d118eab6}{%
+           family={Maddix},
+           familyi={M\bibinitperiod},
+           given={Danielle},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1038c04ac9eeb55c70eee0ff475d8cce}{%
+           family={Türkmen},
+           familyi={T\bibinitperiod},
+           given={Caner},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b41e883686c590f0b90bb2f7d488f6cc}{%
+           family={Gasthaus},
+           familyi={G\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=788936496107a6d83806631aa1d699c0}{%
+           family={Bohlke-Schneider},
+           familyi={B\bibinithyphendelim S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=eada397e5f4a2602534e0917e03112c3}{%
+           family={Salinas},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=83fc4e25ebfa5fbdb577e9666d000bab}{%
+           family={Stella},
+           familyi={S\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=6f829991fd5b5a07288530dedd9028bc}{%
+           family={Aubet},
+           familyi={A\bibinitperiod},
+           given={Francois-Xavier},
+           giveni={F\bibinithyphendelim X\bibinitperiod}}}%
+        {{hash=65e80339cb84ccaf5a31062291aa2f85}{%
+           family={Callot},
+           familyi={C\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9e5ccec71d72e905905574627253f5f7}{%
+           family={Januschowski},
+           familyi={J\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{60b63394194104334cde6fca763c3711}
+      \strng{fullhash}{3551ef5e762d53d7a258410f4764b76c}
+      \strng{fullhashraw}{3551ef5e762d53d7a258410f4764b76c}
+      \strng{bibnamehash}{60b63394194104334cde6fca763c3711}
+      \strng{authorbibnamehash}{60b63394194104334cde6fca763c3711}
+      \strng{authornamehash}{60b63394194104334cde6fca763c3711}
+      \strng{authorfullhash}{3551ef5e762d53d7a258410f4764b76c}
+      \strng{authorfullhashraw}{3551ef5e762d53d7a258410f4764b76c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2004.10240}
+      \field{note}{Later version referenced in ACM Computing Surveys (2022)}
+      \field{title}{Deep Learning for Time Series Forecasting: Tutorial and Literature Survey}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.48550/arXiv.2004.10240
+      \endverb
+    \endentry
+    \entry{Dale2020}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=18b9bad1514d667a06f7114e513d26d3}{%
+           family={Dale},
+           familyi={D\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{18b9bad1514d667a06f7114e513d26d3}
+      \strng{fullhash}{18b9bad1514d667a06f7114e513d26d3}
+      \strng{fullhashraw}{18b9bad1514d667a06f7114e513d26d3}
+      \strng{bibnamehash}{18b9bad1514d667a06f7114e513d26d3}
+      \strng{authorbibnamehash}{18b9bad1514d667a06f7114e513d26d3}
+      \strng{authornamehash}{18b9bad1514d667a06f7114e513d26d3}
+      \strng{authorfullhash}{18b9bad1514d667a06f7114e513d26d3}
+      \strng{authorfullhashraw}{18b9bad1514d667a06f7114e513d26d3}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Natural Language Engineering}
+      \field{number}{4}
+      \field{title}{Natural language generation: The commercial state of the art in 2020}
+      \field{volume}{26}
+      \field{year}{2020}
+      \field{pages}{481\bibrangedash 487}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1017/S135132492000025X
+      \endverb
+    \endentry
+    \entry{Gao2023}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=c2abbcaf7a0f32eebc0deac699eac593}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Dongxiang},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3039b1e934906b6c608fec96fd194107}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Zhenyu},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=ff2c67f0a2ffdc6a702ca31e4525a881}{%
+           family={Huo},
+           familyi={H\bibinitperiod},
+           given={Shuo},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c913b57b58d89791b035f36a799e0510}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Reynold},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ef9d393a7be108e151f56c7d2a8e1093}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yudian},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d6dac0a9c55c1964dec29bd0f54bb986}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Jianzhong},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{30cb7990d2cb61133cb929ee1c62d543}
+      \strng{fullhash}{97607830b1e8bffd991173c3ea09de41}
+      \strng{fullhashraw}{97607830b1e8bffd991173c3ea09de41}
+      \strng{bibnamehash}{97607830b1e8bffd991173c3ea09de41}
+      \strng{authorbibnamehash}{97607830b1e8bffd991173c3ea09de41}
+      \strng{authornamehash}{30cb7990d2cb61133cb929ee1c62d543}
+      \strng{authorfullhash}{97607830b1e8bffd991173c3ea09de41}
+      \strng{authorfullhashraw}{97607830b1e8bffd991173c3ea09de41}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the VLDB Endowment}
+      \field{number}{5}
+      \field{title}{Text-to-SQL Empowered by Large Language Models}
+      \field{volume}{17}
+      \field{year}{2023}
+      \field{pages}{1132\bibrangedash 1145}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.14778/3641204.3641221
+      \endverb
+    \endentry
+    \entry{Gatt2018}{article}{}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=2a3d8893ad04ba3c98081349c47e2f6c}{%
-           family={Laudon},
-           familyi={L\bibinitperiod},
-           given={Kenneth\bibnamedelima C.},
-           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7104f050b378ef23f0bc36c2b73e5ea2}{%
-           family={Laudon},
-           familyi={L\bibinitperiod},
-           given={Jane\bibnamedelima P.},
-           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
-           givenun=0}}%
+        {{hash=cdf0f2d0f15f2dbac724c6ea5270b1b6}{%
+           family={Gatt},
+           familyi={G\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f5859d830a8d7421b27770fd56b0ec89}{%
+           family={Krahmer},
+           familyi={K\bibinitperiod},
+           given={Emiel},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a364da1f507aec8bed1d17af83027fef}
+      \strng{fullhash}{a364da1f507aec8bed1d17af83027fef}
+      \strng{fullhashraw}{a364da1f507aec8bed1d17af83027fef}
+      \strng{bibnamehash}{a364da1f507aec8bed1d17af83027fef}
+      \strng{authorbibnamehash}{a364da1f507aec8bed1d17af83027fef}
+      \strng{authornamehash}{a364da1f507aec8bed1d17af83027fef}
+      \strng{authorfullhash}{a364da1f507aec8bed1d17af83027fef}
+      \strng{authorfullhashraw}{a364da1f507aec8bed1d17af83027fef}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Artificial Intelligence Research}
+      \field{title}{Survey of the state of the art in natural language generation: Core tasks, applications and evaluation}
+      \field{volume}{61}
+      \field{year}{2018}
+      \field{pages}{65\bibrangedash 170}
+      \range{pages}{106}
+      \verb{doi}
+      \verb 10.1613/jair.5477
+      \endverb
+    \endentry
+    \entry{Kitchin2016}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=0a6733829fcc127126b10855df06ec2d}{%
+           family={Kitchin},
+           familyi={K\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=6d64a0433d1af52b26e07c6efc90dc37}{%
+           family={Sloan},
+           familyi={S\bibinitperiod},
+           given={Luke},
+           giveni={L\bibinitperiod}}}%
+        {{hash=517ecdedf4883a749bee424fde949e9f}{%
+           family={Quan-Haase},
+           familyi={Q\bibinithyphendelim H\bibinitperiod},
+           given={Anabel},
+           giveni={A\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Jakarta}%
+        {London}%
       }
       \list{publisher}{1}{%
-        {Pearson Education}%
+        {SAGE}%
       }
-      \strng{namehash}{a99ce1573b42821945806f73f25db5a4}
-      \strng{fullhash}{a99ce1573b42821945806f73f25db5a4}
-      \strng{fullhashraw}{a99ce1573b42821945806f73f25db5a4}
-      \strng{bibnamehash}{a99ce1573b42821945806f73f25db5a4}
-      \strng{authorbibnamehash}{a99ce1573b42821945806f73f25db5a4}
-      \strng{authornamehash}{a99ce1573b42821945806f73f25db5a4}
-      \strng{authorfullhash}{a99ce1573b42821945806f73f25db5a4}
-      \strng{authorfullhashraw}{a99ce1573b42821945806f73f25db5a4}
+      \strng{namehash}{0a6733829fcc127126b10855df06ec2d}
+      \strng{fullhash}{0a6733829fcc127126b10855df06ec2d}
+      \strng{fullhashraw}{0a6733829fcc127126b10855df06ec2d}
+      \strng{bibnamehash}{0a6733829fcc127126b10855df06ec2d}
+      \strng{authorbibnamehash}{0a6733829fcc127126b10855df06ec2d}
+      \strng{authornamehash}{0a6733829fcc127126b10855df06ec2d}
+      \strng{authorfullhash}{0a6733829fcc127126b10855df06ec2d}
+      \strng{authorfullhashraw}{0a6733829fcc127126b10855df06ec2d}
+      \strng{editorbibnamehash}{7a53a5f35eb5a8befe02d50f35184dac}
+      \strng{editornamehash}{7a53a5f35eb5a8befe02d50f35184dac}
+      \strng{editorfullhash}{7a53a5f35eb5a8befe02d50f35184dac}
+      \strng{editorfullhashraw}{7a53a5f35eb5a8befe02d50f35184dac}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The SAGE Handbook of Social Media Research Methods}
+      \field{title}{Big Data -- Hype or Revolution?}
+      \field{year}{2016}
+      \field{pages}{27\bibrangedash 38}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.4135/9781473983847.n3
+      \endverb
+    \endentry
+    \entry{Laney2001}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=10e27441bfc059231781f94fdee97a88}{%
+           family={Laney},
+           familyi={L\bibinitperiod},
+           given={Doug},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {META Group}%
+      }
+      \strng{namehash}{10e27441bfc059231781f94fdee97a88}
+      \strng{fullhash}{10e27441bfc059231781f94fdee97a88}
+      \strng{fullhashraw}{10e27441bfc059231781f94fdee97a88}
+      \strng{bibnamehash}{10e27441bfc059231781f94fdee97a88}
+      \strng{authorbibnamehash}{10e27441bfc059231781f94fdee97a88}
+      \strng{authornamehash}{10e27441bfc059231781f94fdee97a88}
+      \strng{authorfullhash}{10e27441bfc059231781f94fdee97a88}
+      \strng{authorfullhashraw}{10e27441bfc059231781f94fdee97a88}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Sistem Informasi Manajemen}
-      \field{year}{2020}
+      \field{note}{Reprinted 2012; widely cited as the 3V framework}
+      \field{title}{3D Data Management: Controlling Data Volume, Velocity, and Variety}
+      \field{type}{techreport}
+      \field{year}{2001}
     \endentry
-    \entry{pressman2019}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=4d3f81788d99cf425c4b6e0a454baab0}{%
-           family={Pressman},
-           familyi={P\bibinitperiod},
-           given={Roger\bibnamedelima S.},
-           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
+    \entry{Lennerholt2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=388cd420797e3e5bbe789ccec2855b88}{%
+           family={Lennerholt},
+           familyi={L\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1eb17e639a677522fc6700e9f5ed0b81}{%
+           family={Laere},
+           familyi={L\bibinitperiod},
+           given={Joeri},
+           giveni={J\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=a9ada901829b69959dd62e0020c72667}{%
+           family={Söderström},
+           familyi={S\bibinitperiod},
+           given={Eva},
+           giveni={E\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {Yogyakarta}%
-      }
-      \list{publisher}{1}{%
-        {McGraw-Hill Education}%
-      }
-      \strng{namehash}{4d3f81788d99cf425c4b6e0a454baab0}
-      \strng{fullhash}{4d3f81788d99cf425c4b6e0a454baab0}
-      \strng{fullhashraw}{4d3f81788d99cf425c4b6e0a454baab0}
-      \strng{bibnamehash}{4d3f81788d99cf425c4b6e0a454baab0}
-      \strng{authorbibnamehash}{4d3f81788d99cf425c4b6e0a454baab0}
-      \strng{authornamehash}{4d3f81788d99cf425c4b6e0a454baab0}
-      \strng{authorfullhash}{4d3f81788d99cf425c4b6e0a454baab0}
-      \strng{authorfullhashraw}{4d3f81788d99cf425c4b6e0a454baab0}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \strng{namehash}{d9885b69048347ef8601e6089da43926}
+      \strng{fullhash}{4d6f9fc859ad0830751dbb8b10b326a8}
+      \strng{fullhashraw}{4d6f9fc859ad0830751dbb8b10b326a8}
+      \strng{bibnamehash}{4d6f9fc859ad0830751dbb8b10b326a8}
+      \strng{authorbibnamehash}{4d6f9fc859ad0830751dbb8b10b326a8}
+      \strng{authornamehash}{d9885b69048347ef8601e6089da43926}
+      \strng{authorfullhash}{4d6f9fc859ad0830751dbb8b10b326a8}
+      \strng{authorfullhashraw}{4d6f9fc859ad0830751dbb8b10b326a8}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Rekayasa Perangkat Lunak: Pendekatan Praktisi}
-      \field{year}{2019}
+      \field{journaltitle}{Information Systems Management}
+      \field{number}{4}
+      \field{title}{User-related challenges of self-service business intelligence}
+      \field{volume}{38}
+      \field{year}{2021}
+      \field{pages}{311\bibrangedash 326}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1080/10580530.2020.1814458
+      \endverb
+    \endentry
+    \entry{Lennerholt2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=388cd420797e3e5bbe789ccec2855b88}{%
+           family={Lennerholt},
+           familyi={L\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1eb17e639a677522fc6700e9f5ed0b81}{%
+           family={Laere},
+           familyi={L\bibinitperiod},
+           given={Joeri},
+           giveni={J\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=a9ada901829b69959dd62e0020c72667}{%
+           family={Söderström},
+           familyi={S\bibinitperiod},
+           given={Eva},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{d9885b69048347ef8601e6089da43926}
+      \strng{fullhash}{4d6f9fc859ad0830751dbb8b10b326a8}
+      \strng{fullhashraw}{4d6f9fc859ad0830751dbb8b10b326a8}
+      \strng{bibnamehash}{4d6f9fc859ad0830751dbb8b10b326a8}
+      \strng{authorbibnamehash}{4d6f9fc859ad0830751dbb8b10b326a8}
+      \strng{authornamehash}{d9885b69048347ef8601e6089da43926}
+      \strng{authorfullhash}{4d6f9fc859ad0830751dbb8b10b326a8}
+      \strng{authorfullhashraw}{4d6f9fc859ad0830751dbb8b10b326a8}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Decision Systems}
+      \field{number}{4}
+      \field{title}{Success factors for managing the SSBI challenges of the AQUIRE framework}
+      \field{volume}{32}
+      \field{year}{2023}
+      \field{pages}{417\bibrangedash 438}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1080/12460125.2022.2057006
+      \endverb
+    \endentry
+    \entry{Li2024}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=84f716033eb74ed651070bfa5d477905}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Boyan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b4e57b22322af303a91f787661a2598d}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Yuyu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f6c2f1f714caed35728ef6d2d82e0492}{%
+           family={Chai},
+           familyi={C\bibinitperiod},
+           given={Chengliang},
+           giveni={C\bibinitperiod}}}%
+        {{hash=82ebafd2e144bf050f398481d670d071}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Guoliang},
+           giveni={G\bibinitperiod}}}%
+        {{hash=104b2048b225c23c31992c9c031764d4}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Nan},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{c952da66af203eb2bf67fcf38b1b3d8d}
+      \strng{fullhash}{7f64e9e33a4b09abf53c09fa1c33204a}
+      \strng{fullhashraw}{7f64e9e33a4b09abf53c09fa1c33204a}
+      \strng{bibnamehash}{7f64e9e33a4b09abf53c09fa1c33204a}
+      \strng{authorbibnamehash}{7f64e9e33a4b09abf53c09fa1c33204a}
+      \strng{authornamehash}{c952da66af203eb2bf67fcf38b1b3d8d}
+      \strng{authorfullhash}{7f64e9e33a4b09abf53c09fa1c33204a}
+      \strng{authorfullhashraw}{7f64e9e33a4b09abf53c09fa1c33204a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the VLDB Endowment}
+      \field{number}{12}
+      \field{title}{The Dawn of Natural Language to SQL: Are We Fully Ready?}
+      \field{volume}{17}
+      \field{year}{2024}
+      \field{pages}{3318\bibrangedash 3331}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.14778/3681954.3682003
+      \endverb
+    \endentry
+    \entry{Lim2021}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=ae79ceb303df628c5461fb3fda3f01e2}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=7bcfc3a5e6df217d673644bbe887698e}{%
+           family={Zohren},
+           familyi={Z\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{28accdf0073d8a3bb64dee034a5b894c}
+      \strng{fullhash}{28accdf0073d8a3bb64dee034a5b894c}
+      \strng{fullhashraw}{28accdf0073d8a3bb64dee034a5b894c}
+      \strng{bibnamehash}{28accdf0073d8a3bb64dee034a5b894c}
+      \strng{authorbibnamehash}{28accdf0073d8a3bb64dee034a5b894c}
+      \strng{authornamehash}{28accdf0073d8a3bb64dee034a5b894c}
+      \strng{authorfullhash}{28accdf0073d8a3bb64dee034a5b894c}
+      \strng{authorfullhashraw}{28accdf0073d8a3bb64dee034a5b894c}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society A}
+      \field{number}{2194}
+      \field{title}{Time-series forecasting with deep learning: a survey}
+      \field{volume}{379}
+      \field{year}{2021}
+      \field{pages}{20200209}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1098/rsta.2020.0209
+      \endverb
+    \endentry
+    \entry{IndiBiz2024Site}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=d0215c8cff72b6e29e27f485f658f471}{%
+           family={{PT Telkom Indonesia}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{d0215c8cff72b6e29e27f485f658f471}
+      \strng{fullhash}{d0215c8cff72b6e29e27f485f658f471}
+      \strng{fullhashraw}{d0215c8cff72b6e29e27f485f658f471}
+      \strng{bibnamehash}{d0215c8cff72b6e29e27f485f658f471}
+      \strng{authorbibnamehash}{d0215c8cff72b6e29e27f485f658f471}
+      \strng{authornamehash}{d0215c8cff72b6e29e27f485f658f471}
+      \strng{authorfullhash}{d0215c8cff72b6e29e27f485f658f471}
+      \strng{authorfullhashraw}{d0215c8cff72b6e29e27f485f658f471}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{IndiBiz---Ekosistem Solusi Dunia Usaha Indonesia}
+      \field{urlday}{22}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://indibiz.co.id/
+      \endverb
+      \verb{url}
+      \verb https://indibiz.co.id/
+      \endverb
+    \endentry
+    \entry{Telkom2024News}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=d0215c8cff72b6e29e27f485f658f471}{%
+           family={{PT Telkom Indonesia}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{d0215c8cff72b6e29e27f485f658f471}
+      \strng{fullhash}{d0215c8cff72b6e29e27f485f658f471}
+      \strng{fullhashraw}{d0215c8cff72b6e29e27f485f658f471}
+      \strng{bibnamehash}{d0215c8cff72b6e29e27f485f658f471}
+      \strng{authorbibnamehash}{d0215c8cff72b6e29e27f485f658f471}
+      \strng{authornamehash}{d0215c8cff72b6e29e27f485f658f471}
+      \strng{authorfullhash}{d0215c8cff72b6e29e27f485f658f471}
+      \strng{authorfullhashraw}{d0215c8cff72b6e29e27f485f658f471}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{title}{UMKM Cuan 463 Juta Rupiah dari Digiland 2024}
+      \field{urlday}{22}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.telkom.co.id/sites/berita/id_ID/news/umkm-cuan-463-juta-rupiah-dari-digiland-2024-2480
+      \endverb
+      \verb{url}
+      \verb https://www.telkom.co.id/sites/berita/id_ID/news/umkm-cuan-463-juta-rupiah-dari-digiland-2024-2480
+      \endverb
+    \endentry
+    \entry{Sharda2020}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=155f68c8244853827b790237058d3cbf}{%
+           family={Sharda},
+           familyi={S\bibinitperiod},
+           given={Ramesh},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8d4b3cc303814c37dc2168d3d648bca7}{%
+           family={Delen},
+           familyi={D\bibinitperiod},
+           given={Dursun},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9b8fdb3166a87b5286b644c5bfcd0dfd}{%
+           family={Turban},
+           familyi={T\bibinitperiod},
+           given={Efraim},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{83726952316aa40599c9aab2f4eafb46}
+      \strng{fullhash}{0c77fa64f21cffc1acd46e96d6106aaf}
+      \strng{fullhashraw}{0c77fa64f21cffc1acd46e96d6106aaf}
+      \strng{bibnamehash}{0c77fa64f21cffc1acd46e96d6106aaf}
+      \strng{authorbibnamehash}{0c77fa64f21cffc1acd46e96d6106aaf}
+      \strng{authornamehash}{83726952316aa40599c9aab2f4eafb46}
+      \strng{authorfullhash}{0c77fa64f21cffc1acd46e96d6106aaf}
+      \strng{authorfullhashraw}{0c77fa64f21cffc1acd46e96d6106aaf}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{11}
+      \field{isbn}{9780135192016}
+      \field{title}{Analytics, Data Science, \& Artificial Intelligence: Systems for Decision Support}
+      \field{year}{2020}
     \endentry
   \enddatalist
 \endrefsection

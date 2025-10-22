@@ -41,7 +41,7 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
       <file>ProposalTA.bcf</file>
@@ -54,9 +54,9 @@
       <file>blx-unicode.def</file>
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
-      <file>chicago-authordate.bbx</file>
-      <file>chicago-dates-common.cbx</file>
-      <file>chicago-authordate.cbx</file>
+      <file>standard.bbx</file>
+      <file>authoryear.bbx</file>
+      <file>authoryear.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
     </requires>
