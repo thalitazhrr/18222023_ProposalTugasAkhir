@@ -57,8 +57,8 @@
            given={Jan},
            giveni={J\bibinitperiod}}}%
         {{hash=788936496107a6d83806631aa1d699c0}{%
-           family={Bohlke-Schneider},
-           familyi={B\bibinithyphendelim S\bibinitperiod},
+           family={Bohlke{-}Schneider},
+           familyi={B\bibinitperiod},
            given={Michael},
            giveni={M\bibinitperiod}}}%
         {{hash=eada397e5f4a2602534e0917e03112c3}{%
@@ -74,8 +74,8 @@
         {{hash=6f829991fd5b5a07288530dedd9028bc}{%
            family={Aubet},
            familyi={A\bibinitperiod},
-           given={Francois-Xavier},
-           giveni={F\bibinithyphendelim X\bibinitperiod}}}%
+           given={Francois{-}Xavier},
+           giveni={F\bibinitperiod}}}%
         {{hash=65e80339cb84ccaf5a31062291aa2f85}{%
            family={Callot},
            familyi={C\bibinitperiod},
